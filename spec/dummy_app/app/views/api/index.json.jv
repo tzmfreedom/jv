@@ -1,0 +1,9 @@
+json = {}
+json[:string_property] = @string
+json[:integer_property] = 123
+json[:array_property] = @integers
+json[:object_property] = {
+  single_partial: r.(partial: 'api/record', locals: { record: { a: 123, b: 100 } }),
+  collection_partial: r.(partial: 'api/record', collection: @records, as: :record)
+}
+json
