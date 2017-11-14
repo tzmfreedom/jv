@@ -63,7 +63,7 @@ This response is following
 
 ## Benchmark
 
-Benchmark script is there.
+Benchmark script is here.
 * [bin/benchmark.rb](https://github.com/tzmfreedom/jv/blob/master/spec/dummy_app/bin/benchmark.rb)
 * [api_controller.rb](https://github.com/tzmfreedom/jv/blob/master/spec/dummy_app/app/controllers/api_controller.rb)
 
@@ -159,7 +159,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/jv.
+Bug reports and pull requests are welcome on GitHub at https://github.com/tzmfreedom/jv.
 
 ## License
 
