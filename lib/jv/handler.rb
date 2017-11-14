@@ -1,4 +1,3 @@
-require 'jv/view'
 require 'jv/render'
 
 module Jv
@@ -11,7 +10,7 @@ module Jv
         r ||= Jv::Render.new(self)
         _partial ||= nil
         hash = ->{ #{template.source} }.()
-        _partial.nil? ? hash.to_json : Jv::View.new(hash)
+        _partial.nil? ? hash.to_json : "\#{hash.to_json},"
       SRC
     end
   end
